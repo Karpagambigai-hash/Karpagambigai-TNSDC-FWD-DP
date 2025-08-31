@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>PORTFDOLIO</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+<link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  </head>
+  <body>
+ 
+    <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Digital Portfolio</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <h1>Welcome to <span>My Portfolio</span></h1>
+    <a href="#projects" class="btn">View My Work</a>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <img src="P.KARPAGAM.jpg">
+    </div>
+    <div class="about-content">
+      <p>Hello! I am a web developer and a sports lover and I like cricket and crazy on playing Badminton.</p>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects" id="projects">
+    <h2>My Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">Project 1</div>
+      <P>Educational Skills .</P>
+      <div class="project-card">Project 2</div>
+   <P> Badges for completed course.</P>
+      <div class="project-card">Project 3</div>
+      <P>Personal Interest in sports.</P>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <h2>Contact Me</h2>
+     <form id="contact-form">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send</button>
+      <p id="form-status"></p>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Digital Portfolio</p>
+  </footer>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
